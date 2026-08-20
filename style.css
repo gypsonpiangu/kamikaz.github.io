@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#tout{
+    background-color: rgb(100, 100, 211);
+    border-radius: 80px;
+    padding: 30px;
+    padding-bottom: 10px;
+
+}
+
+#horloge{
+    font-size: 50px;
+    margin-top: 40px;
+    
+}
+
+#message{
+    text-align: center;
+    font-size: 30px;
+    
+}
