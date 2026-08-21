@@ -1,7 +1,7 @@
 function afficher(){
     const today = new Date()
     let heures = today.getHours()       //recuperation de l'heure actuel
-    let minutes = today.getDate()
+    let minutes = today.getMinutes()
     let secondes = today.getSeconds()
     let nojour=["Lundi", "Mardi", "Mercredi", "Jeudi","Vendredi", "Samedi"]
     let nomois=["Janvier", "fevrier", "mars","Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"]
