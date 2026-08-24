@@ -3,9 +3,9 @@ function afficher(){
     let heures = today.getHours()       //recuperation de l'heure actuel
     let minutes = today.getMinutes()
     let secondes = today.getSeconds()
-    let nojour=["Lundi", "Mardi", "Mercredi", "Jeudi","Vendredi", "Samedi"]
+    let nojour=["Dimanche","Lundi", "Mardi", "Mercredi", "Jeudi","Vendredi", "Samedi", ]
     let nomois=["Janvier", "fevrier", "mars","Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"]
-    let jour = nojour[today.getDay() -1]
+    let jour = nojour[today.getDay() ]
     let mois= nomois[today.getMonth()]
     let annee = today.getFullYear()
     let jourr = today.getDate()

@@ -30,6 +30,14 @@ body{
     
 }
 
+#horloge:hover{
+    border: 2px solid aliceblue;
+    transform: translateY(10px);
+    height: 60px;
+    font-size: 55px;
+    cursor: pointer;
+}
+
 #message{
     text-align: center;
     font-size: 30px;
@@ -41,15 +49,25 @@ body{
     
 }
 
+#message:hover{
+    border:  2px solid aliceblue;
+    transform: translateY(10px);
+    cursor: pointer;
+    
+}
+
 #ima{
     display: flex;
     gap: 80px;
 }
 
+
 #image1{
     margin-left: 100px;
     border-radius: 80px;
 }
+
+
 
 #image2{
     border-radius: 80px;
@@ -57,6 +75,30 @@ body{
 #image3{
     border-radius: 80px;
 }
+
+#image3:hover{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 80px;
+    transform: translateY(10px);
+
+}
+
+#image1:hover{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 80px;
+    transform: translateY(10px);
+
+}
+#image2:hover{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 80px;
+    transform: translateY(10px);
+
+}
+
 
 #date{
     text-align: center;
@@ -67,4 +109,14 @@ body{
     background-color: black;
     margin-left: 140px;
     margin-right: 140px;
+}
+
+#date:hover{
+
+    border:  2px solid aliceblue;
+    transform: translateY(10px);
+    height: 45px;
+    font-size: 30px;
+    cursor: pointer;
+
 }
