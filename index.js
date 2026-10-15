@@ -87,9 +87,10 @@ function afficher(){
 
     }if(heures >=22){
         document.querySelector("#message").textContent = "Bonne nuit"
-        document.querySelector("body").style.backgroundColor = "black"
-        document.querySelector("#horloge").style.color = "black"
-        document.querySelector("#message").style.color = "black"
+        document.querySelector("body").style.backgroundColor = "aliceblue"
+        document.querySelector("#horloge").style.color = "aliceblue"
+        document.querySelector("#message").style.color = "aliceblue"
+        
 
         let image1 = document.querySelector("#image1")
         image1.src ="images/nuit.png" 
@@ -107,4 +108,4 @@ function afficher(){
     }
 }
 
-setInterval(afficher, 1000)  //renouveller l'heure a chaque 1000 secondes
+setInterval(afficher, 1000)  //renouveller l'heure a chaque 1000 secondesd

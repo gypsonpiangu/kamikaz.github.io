@@ -17,7 +17,11 @@ body{
     padding-bottom: 10px;
 
 }
-
+#tout:hover{
+    background-color: black;
+    border: 10px solid blue;
+    
+}
 #horloge{
     font-size: 50px;
     margin-top: 40px;
