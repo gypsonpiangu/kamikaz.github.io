@@ -107,5 +107,6 @@ function afficher(){
 
     }
 }
+//Exercice pratique Git : premiere modification
 
 setInterval(afficher, 1000)  //renouveller l'heure a chaque 1000 secondesd
