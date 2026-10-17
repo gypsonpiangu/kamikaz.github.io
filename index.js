@@ -108,5 +108,6 @@ function afficher(){
     }
 }
 //Exercice pratique Git : premiere modification
+//Test de la commande diff
 
 setInterval(afficher, 1000)  //renouveller l'heure a chaque 1000 secondesd
