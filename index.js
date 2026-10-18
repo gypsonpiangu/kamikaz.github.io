@@ -109,9 +109,7 @@ function afficher(){
 }
 //Exercice pratique Git : premiere modification
 //Test de la commande diff
-
-
-
 //Nouvelle fonctionnalite devoloppe sur une branche separe
+//fonctionnalite : gestion des annonces
 
 setInterval(afficher, 1000)  //renouveller l'heure a chaque 1000 secondesd
